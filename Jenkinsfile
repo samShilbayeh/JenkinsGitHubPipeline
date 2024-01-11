@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        // Install the Maven version configured as "M3" and add it to the path.
+        // Install the Maven version configured as "MVN_HOME" , JDK and add it to the path.
         maven "MVN_HOME"
         jdk"JDK8"        
     }
